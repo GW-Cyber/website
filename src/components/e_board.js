@@ -12,7 +12,7 @@ export default class EBoard extends Component {
       <Link to="/home" className="btn ">Home</Link>
       <Link to="/about" className="btn ">About Us</Link>
       <Link to="/events" className="btn ">Events</Link>
-      <Link to="/blog" className="btn ">Blog</Link>
+  
       </div>
       </div>
     );

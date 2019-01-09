@@ -45,7 +45,7 @@ export default class HomePage extends Component {
      <Link to="/about" className="btn ">About Us</Link>
      <Link to="/events" className="btn ">Events</Link>
      <Link to="/eboard" className="btn ">E-board</Link>
-     <Link to="/blog" className="btn ">Blog</Link>
+
       </div>
       <div>
       <button onClick={() => this.changeSlides()}>
