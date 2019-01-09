@@ -2,7 +2,7 @@ const eboardslides = {
   "slides": [
     {
       "index": 0,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Tad.jpg",
       "name": "Theodore Miller",
       "position": "President",
       "year":"Senior",
@@ -12,7 +12,7 @@ const eboardslides = {
     },
     {
       "index": 1,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Mojahed.jpg",
       "name": "Mojahed Alshehri",
       "position": "Vice-President",
       "year":"Masters' Student",
@@ -22,7 +22,7 @@ const eboardslides = {
     },
     {
       "index": 2,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Danny.jpg",
       "name": "Daniel Nsouli",
       "position": "Secretary",
       "year":"Senior",
@@ -32,7 +32,7 @@ const eboardslides = {
     },
     {
       "index": 3,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Kyi.jpg",
       "name": "Kyi Win",
       "position": "Treasurer",
       "year":"Graduate Student",
@@ -42,7 +42,7 @@ const eboardslides = {
     },
     {
       "index": 4,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Neel.jpg",
       "name": "Neel Bhagwat",
       "position": "Systems Administrator",
       "year":"Sophomore",
@@ -52,7 +52,7 @@ const eboardslides = {
     },
     {
       "index": 5,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/David.jpg",
       "name": "David DiMolfetta",
       "position": "Engagement Manager",
       "year":"Sophomore",
@@ -62,7 +62,7 @@ const eboardslides = {
     },
     {
       "index": 6,
-      "image": "https://raw.githubusercontent.com/bhagwatn2021/GWCyberSite/master/images/ImageOne.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Jake.jpg",
       "name": "Jacob Hollander",
       "position": "Content Reporter",
       "year":"Sophomore",
