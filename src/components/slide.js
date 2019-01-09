@@ -12,7 +12,6 @@ const Slide = (props) => {
         </div>
         <div className="media-body">
           <div className="media-heading">{imageText}</div>
-          {props.text}
         </div>
       </div>
   );

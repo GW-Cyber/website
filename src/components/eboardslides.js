@@ -52,7 +52,7 @@ const eboardslides = {
     },
     {
       "index": 5,
-      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/David.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/David.jpeg",
       "name": "David DiMolfetta",
       "position": "Engagement Manager",
       "year":"Sophomore",
@@ -62,7 +62,7 @@ const eboardslides = {
     },
     {
       "index": 6,
-      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Jake.jpg",
+      "image": "https://raw.githubusercontent.com/GW-Cyber/website/master/images/Jake.jpeg",
       "name": "Jacob Hollander",
       "position": "Content Reporter",
       "year":"Sophomore",
