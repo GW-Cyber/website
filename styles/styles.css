@@ -8,3 +8,17 @@ img{
   height: auto;
 
 }
+
+.label {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.inputbox {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
