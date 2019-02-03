@@ -42,7 +42,7 @@ However, upon navigating to the contact us page from any other page, we see that
 7. Once all of this is done, the website should be styled. It needs consistent font size, and a GW Blue for the background
 instead of the current dark red that it has. https://teamcolorcodes.com/george-washington-colonials-color-codes/ gives an option for buff and blue html color codes.
 
-8. There *were* a significant number of <li> tags previously used to hold together the website's styling
+8. There *were* a significant number of [li] tags previously used to hold together the website's styling
 
 Solutions provided and fixes made:
 
@@ -60,4 +60,4 @@ Solutions provided and fixes made:
 
 7. Styling has begun but is not complete. The background color is now GW blue. Headers are now consistently sized. It looked weird to navigate from one page to another and have the words GW Cyber change size or position on the page.
 
-8. The first attempt to remove the excessive <li> tags has been pushed to the master branch. More attempts may be necessary. The zip folder contains the index page with <li> tags removed and css classes changed where necessary as well as an improved stylesheet to recreate the website without <li>'s.
+8. The first attempt to remove the excessive [li] tags has been pushed to the master branch. More attempts may be necessary. The zip folder contains the index page with [li] tags removed and css classes changed where necessary as well as an improved stylesheet to recreate the website without [li]'s.
