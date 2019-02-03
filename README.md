@@ -44,4 +44,18 @@ instead of the current dark red that it has. https://teamcolorcodes.com/george-w
 
 
 
+Solutions provided and fixes made:
 
+1. No more broken links! Orderings fixed (although negotiable)
+
+2. The images have not been changed, and will be eventually. Alt text has not yet been added, but when we commit to images, we need to stop pulling them from github and use an assets folder
+
+3. the cycling slides have been fixed. Now when a page loads it starts at the first slide instead of the last slide.
+
+4. The events page still requires events.
+
+5. Contact us page now says GW Cyber as it should, and the form on the page is styled
+
+6. The logo is still required.
+
+7. Styling has begun but is not complete. The background color is now GW blue. Headers are now consistently sized. It looked weird to navigate from one page to another and have the words GW Cyber change size or position on the page
