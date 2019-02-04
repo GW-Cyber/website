@@ -3,13 +3,9 @@ By Neel Bhagwat
 George Washington University
 Start date: March 15th, 2018 -->
 <html>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../styles/styles.css">
 
 <style>
-body {
-   font-family: "Lato", sans-serif;
-   background-color: #500;
-}
 button.align{
     vertical-align: text-bottom;
 }
@@ -28,7 +24,8 @@ button.align{
 </style>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Metadata for site -->
+  <link rel="stylesheet" href="../styles/styles.css">  
+  <!-- Metadata for site -->
   <title> GW || CYBR </title>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -48,43 +45,59 @@ button.align{
 <li>
 <div class="container well">
 <div class="text-center">
-  <h2 class="header"> George Washington University's Hindu Students' Association</h2>
-    <h3 class="header"> Contact Us</h3>
+  <h1 class="header">GW Cyber</h1>
+    <h2 class="header"> Contact Us</h2>
 <li>
 <li>
 </div>
 </head>
 
-<body style="background-color: #500;">
+<body>
 <div>
   <div class="row justify-content-md-center text-center blockquote container">
-      <a class="well" href="index.html">Home</a>
+      <a class="well" href="../index.html">Home</a>
+      <a class="well" href="about.html">About Us</a>
       <a class="well" href="events.html">Events</a>
       <a class="well" href="eboard.html">E-Board</a>
-      <a class="well" href="contact.html">Contact Us</a>
 
       <li>
   </div>
-    <div>
-       <form id= "form" action="https://formspree.io/neil.bhagwat1999@gmail.com" method="POST" >
-        <label>First Name</label>
-        <input type="text" name="firstname" /> <br/>
-
-        <label>Last Name</label>
-        <input type="text" name="lastname" /> <br/>
-
-
-        <label>Email</label>
-        <input type="email" name="email" /> <br/>
-
-
-        <label>Subject</label>
-        <input type="text" name="subject" /> <br/>
-
-        <label>Message</label>
-        <textarea name="message"></textarea> <br/>
-
-      <input type="submit" value="Submit"/>
+    <div style="width: 400px">
+       <form id= "form" action="https://formspree.io/neil.bhagwat1999@gmail.com" method="POST" style="">
+	<div class=label>
+		<label>First Name</label>
+	</div>
+	<div class=inputbox>
+		<input type="text" name="firstname"/> <br>
+	</div>
+	<div class=label>
+		<label>Last Name</label>
+	</div>
+	<div class=inputbox>
+		<input type="text" name="lastname"/> <br>
+	</div>
+	<div class=label>
+        	<label>Email</label>
+	</div>
+	<div class=inputbox>
+		<input type="email" name="email"/> <br>
+	</div>
+	<div class=label>
+        	<label>Subject</label>
+	</div>
+	<div class=inputbox>
+		<input type="text" name="subject"/> <br>
+	</div>
+	<div class=label>
+        	<label>Message</label>
+	</div>
+	<div class=inputbox>
+		<textarea name="message"></textarea> <br>
+	</div>
+	<br><br><br><br><br><br>
+	<div>
+     		 <input type="submit" value="Submit" style="padding=20px"/>
+	</div>
       </form>
     </div>
     </div>
