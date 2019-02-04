@@ -42,7 +42,7 @@ However, upon navigating to the contact us page from any other page, we see that
 7. Once all of this is done, the website should be styled. It needs consistent font size, and a GW Blue for the background
 instead of the current dark red that it has. https://teamcolorcodes.com/george-washington-colonials-color-codes/ gives an option for buff and blue html color codes.
 
-8. There *were* a significant number of <li> tags previously used to hold together the website's styling
+8. There *were* a significant number of <li> tags previously used to hold together the website's styling.
 
 Solutions provided and fixes made:
 
