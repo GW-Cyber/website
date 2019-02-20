@@ -10,10 +10,6 @@ body{
 	font-family: 'Roboto',sans-serif;
 	background-color: #003664;
 }
-img{
-  height: auto;
-
-}
 
 h1{
 	font-weight: normal;
@@ -23,41 +19,11 @@ h1{
 	color: #333;
 }
 
-.label {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-  font-size: 14px;
-  text-align: left;
-}
-
-.inputbox {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.GWCyberSpacing{
-	width: 84.5%;
-	margin-bottom: 40px;
-	padding-right:10px;
-	padding-left:10px;
-	margin-right:auto;
-	margin-left:auto;
-	margin-top:20px;
-	margin-bottom:60px;
-}
-
-.well {
-	min-height: 20px;
-	padding:19px;
-	background-color:#f5f5f5;
-	border:1px solid #e3e3e3;
-	border-radius:4px;
-	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
-	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+img{
+  height: auto;
 
 }
+
 
 .button {
 	min-height: 20px;
@@ -78,9 +44,35 @@ h1{
 	margin-top:20px;
 	margin-bottom:21px;
 }
-.text-center{
-	text-align:center
+
+
+.GWCyberSpacing{
+	width: 84.5%;
+	margin-bottom: 40px;
+	padding-right:10px;
+	padding-left:10px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom:60px;
 }
+
+
+.inputbox {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.label {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  font-size: 14px;
+  text-align: left;
+}
+
 
 .slideshowContainer{
 	min-height: 20px;
@@ -91,7 +83,31 @@ h1{
 	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
 	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 .submitButton{
 	background-color:#f5f5f5;
 	border-radius:2px;
 }
+
+.text-center{
+	text-align:center
+}
+
+.well {
+	min-height: 20px;
+	padding:19px;
+	background-color:#f5f5f5;
+	border:1px solid #e3e3e3;
+	border-radius:4px;
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+
+}
+
+
