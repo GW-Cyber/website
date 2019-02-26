@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GW || CYBR</title>
+
+
+ 
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link href="../styles.css" rel="stylesheet">
+
+
+
+ </head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">GW Cyber</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+	<div id="container" class="slideshowContainer" style="margin-left: 8px; margin-right: 8px;" onresize="resize()">
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 2</div>
+                        <img src="https://raw.githubusercontent.com/GW-Cyber/website/master/images/ImageTwo.jpg" style="width:100%">
+                  <div class="text">This is the second image.</div>
+                    </div>
+
+        <div class="mySlides">
+                        <div class="numbertext">1 / 2</div>
+                        <img src="https://raw.githubusercontent.com/GW-Cyber/website/master/images/ImageOne.jpg" style="width:100%">
+                        <div class="text">This is the first image.</div>
+
+                          </div>
+
+
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+                <br>
+
+        <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+  </div>
+
+<script>
+                
+                var slideIndex = 0;
+                showSlides(slideIndex);
+
+
+                function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                }
+
+
+                function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                }
+
+                for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                }
+                        
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
+                </script>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
